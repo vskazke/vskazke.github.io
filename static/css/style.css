@@ -1,0 +1,159 @@
+<style>
+    body {
+        display: block;
+        max-width: 1000px;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: #f1d8d8;
+        ￼font-size: 14px;
+    }
+    .navbar-default .navbar-brand {
+        font-size: 20px;
+        color: white;
+    }
+    .navbar {
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        max-width: 1000px;
+        background-color: #330000;
+        font-size: 16px;
+        color: white;
+
+    }
+    .navbar-default .navbar-nav li a {
+        color: white;
+    }
+    .container {
+        display: block;
+        max-width: 1000px;
+        padding-top: 30px;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .col-md-2 {
+        align: middle;
+    }
+    .container-fluid {
+        padding-right: 0px;
+        padding-left: 0px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .container-fluid h4 {
+        border: 2px solid;
+
+        background-image: url({{url_for('static', filename='fonts/fon2.jpg')}});
+        padding: 10px;
+        margin: 0;
+    }
+    li.activ {
+        font-weight: 800;
+        border: 4px solid #1a0000;
+        background-color: #660000;
+    }
+    .jumborton {
+        padding-top: 38px;
+
+    }
+    #teg {
+        padding-bottom: auto;
+        border: 5px solid;
+    }
+    a {
+        color: black;
+    }
+    a:hover {
+        text-decoration: none;
+    }
+    .skazka_list img{
+        max-width: auto;
+        padding-right: 5px;
+        padding-top: 5px;
+
+    }
+    .list-group-item {
+        background-color: #f1d8d8;
+    }
+    .main-navigation img {
+        width: 130px;
+        height: 130px;
+    }
+    .main-navigation {
+        padding: 30px 20px;
+    }
+    .main-navigation button {
+        max-width: 140px;
+        height: auto;
+        word-wrap: break-word;
+    }
+    .main-navigation a {
+        word-wrap: break-word;
+    }
+    .carousel-inner li {
+        display: inline;
+    }
+    .main-navigation-skazka {
+        margin-top: 30px;
+    }
+    .btn {
+        white-space: normal;
+    }
+    #carousel .carousel_slide{
+        data-pause: hover;
+    }
+    .carousel-control .glyphicon {
+        margin-right: -40px;
+        margin-left: -40px;
+    }
+    #skazka-title {
+        margin-bottom: 30px;
+        width: 150px;
+        height: 85px;
+    }
+
+    .pagination .active {
+        background-color: #f1d8d8;
+    }
+    .search {
+        margin-bottom: 10px;
+    }
+    td .btn {
+        background-color: #f1d8d8;
+        border-color: #f1d8d8;
+        font-size: 28px;
+        padding: 200px 10px;
+    },
+
+    .table tr {
+        display: block;
+        max-height: 500px;
+        max-width: 450px;
+    }
+    #image {
+        width: 100%;
+        max-height: 550px;
+        padding-bottom: 10px;
+    }
+    p#text {
+        display: block;
+        max-height: 500px;
+        max-width: 450px;
+        font-size: 16px;
+    }
+    .btnBack .btn{
+        background-color: #f1d8d8;
+        padding: 0px;
+    }
+    .table tbody tr td .button{
+        vertical-align: middle;
+    }
+
+
+
+</style>
+
