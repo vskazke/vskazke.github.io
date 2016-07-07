@@ -11,7 +11,7 @@
 или себе дед да баба</title>
 
   <link rel="stylesheet" href="/static/css/bootstrap.min.css">
-    <link rel="shortcut icon" href="/static/fonts/favicon.ico">
+    <link rel="shortcut icon" href="/static/favicon.ico">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -20,7 +20,34 @@
         <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
         <![endif]-->
     <link rel="stylesheet" href="/static/css/style.css">
+    <!-- Yandex.Metrika counter -->
+    <script type="text/javascript">
+        (function (d, w, c) {
+          (w[c] = w[c] || []).push(function() {
+            try {
+              w.yaCounter38259105 = new Ya.Metrika({
+                id:38259105,
+                clickmap:true,
+                trackLinks:true,
+                accurateTrackBounce:true
+              });
+            } catch(e) { }
+          });
 
+          var n = d.getElementsByTagName("script")[0],
+          s = d.createElement("script"),
+          f = function () { n.parentNode.insertBefore(s, n); };
+            s.type = "text/javascript";
+            s.async = true;
+            s.src = "https://mc.yandex.ru/metrika/watch.js";
+
+            if (w.opera == "[object Opera]") {
+              d.addEventListener("DOMContentLoaded", f, false);
+            } else { f(); }
+        })(document, window, "yandex_metrika_callbacks");
+      </script>
+      <noscript><div><img src="https://mc.yandex.ru/watch/38259105" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+    <!-- /Yandex.Metrika counter -->
 <style>
           body {
             display: block;
@@ -37,6 +64,13 @@
             padding: 10px;
             margin: 0;
           }
+          nav .navbar {
+            display: block;
+            max-width: 1000px;
+            margin-left: auto;
+            margin-right: auto;
+          }
+
 </style>
 </head>
   
@@ -59,7 +93,7 @@
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav navbar-left">
             <li><a href=/>Все Сказки</a></li>
-            <li><a href=/about/>О Сайте</a></li>
+            <li><a href=/contacts/>О Сайте</a></li>
             <li><a href=/search/>Поиск сказок</a></li>
             <li><a href=/contacts/>Контакты</a></li>
           </ul>

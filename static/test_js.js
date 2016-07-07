@@ -3,7 +3,6 @@
 
 var count = 0;
 function changeImageForward() {
-    count = count + 1;
     var image = document.getElementById('image'),
         text = document.getElementById('text'),
         img,
@@ -34,6 +33,7 @@ function changeImageForward() {
                 text.innerHTML = txt[i];
                 url =  '/' + data.skazka.name + '/' + i + '/';
                 history.pushState(null, null, url);
+                count = count + 1;
                 break;
             }
             //} else if ((i === len) && (image.src === undefined)) {
@@ -47,7 +47,6 @@ function changeImageForward() {
     return false;
 }
 function changeImageBack() {
-    count = count + 1;
     var image = document.getElementById('image'),
         text = document.getElementById('text'),
         img,
@@ -76,6 +75,7 @@ function changeImageBack() {
                 text.innerHTML = txt[n];
                 url =  '/' + data.skazka.name + '/' + n + '/';
                 history.pushState(null, null, url);
+                count = count + 1;
                 break;
             }
         }
@@ -85,11 +85,9 @@ function changeImageBack() {
 
 $(document).keydown(function (event) {
     if (event.which === 37) {
-        count = count + 1;
         changeImageBack();
     }
     if (event.which === 39 || event.which === 13 || event.which === 32) {
-        count = count + 1;
         changeImageForward();
     }
 });
