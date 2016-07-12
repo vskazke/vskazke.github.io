@@ -27,11 +27,9 @@ $(document).ready(function () {
                     $('#result').html('<p>Ничего не найдено</p>');
                 } else {
                     $('#result').append('<a href="' + result[i].url + '">' +
-                                    '<img src=' + result[i].first_img +
-                                    ' width="150px" height="150px">')
-                                .append('<button class="btn btn-default " id="skazka-title"' +
-                                    '<p><a href="' + result[i].url  + '">' +
-                                    result[i].title + '</a></p></button>');
+                                '<button class="btn btn-default" id="skazka-title">' +
+                                '<img src=' + result[i].first_img + ' width="150px" height="150px">' +
+                                '<br><strong>' + result[i].title + '</strong></br></button></a>');
                 }
             }
         });
@@ -60,16 +58,10 @@ $(document).ready(function () {
                     if (result[i] === 'NO') {
                         $('#result').html('<p>Ничего не найдено</p>');
                     } else {
-                        $('#result').append('<a href="' +
-                                        result[i].url +
-                                        '">' + '<img src=' +
-                                        result[i].first_img +
-                                        ' width="150px" height="150px">')
-                                    .append('<button class="btn btn-default " id="skazka-title"' +
-                                        '<p><a href="' +
-                                        result[i].url  + '">' +
-                                        result[i].title +
-                                        '</a></p></button>');
+                    $('#result').append('<a href="' + result[i].url + '">' +
+                                '<button class="btn btn-default" id="skazka-title">' +
+                                '<img src=' + result[i].first_img + ' width="150px" height="150px">' +
+                                '<br><strong>' + result[i].title + '</strong></br></button></a>');
                     }
                 }
             });

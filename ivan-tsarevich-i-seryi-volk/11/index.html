@@ -8,71 +8,16 @@
     <title>Иван-царевич и серый волк : 
 Помчался серый волк с Иваном  царевичем, с Еленой Прекрасной обратной дорогой  синие леса мимо глаз пропускает, реки, озера хвостом заметает</title>
 
-  <link rel="stylesheet" href="/static/css/bootstrap.min.css">
-    <link rel="shortcut icon" href="/static/favicon.ico">
-
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
         <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
         <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
         <![endif]-->
+    <link rel="stylesheet" href="/static/css/bootstrap.min.css">
     <link rel="stylesheet" href="/static/css/style.css">
-    <!-- Yandex.Metrika counter -->
-    <script type="text/javascript">
-        (function (d, w, c) {
-          (w[c] = w[c] || []).push(function() {
-            try {
-              w.yaCounter38259105 = new Ya.Metrika({
-                id:38259105,
-                clickmap:true,
-                trackLinks:true,
-                accurateTrackBounce:true
-              });
-            } catch(e) { }
-          });
+    <link rel="shortcut icon" href="/static/favicon.ico">
 
-          var n = d.getElementsByTagName("script")[0],
-          s = d.createElement("script"),
-          f = function () { n.parentNode.insertBefore(s, n); };
-            s.type = "text/javascript";
-            s.async = true;
-            s.src = "https://mc.yandex.ru/metrika/watch.js";
-
-            if (w.opera == "[object Opera]") {
-              d.addEventListener("DOMContentLoaded", f, false);
-            } else { f(); }
-        })(document, window, "yandex_metrika_callbacks");
-      </script>
-      <noscript><div><img src="https://mc.yandex.ru/watch/38259105" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
-    <!-- /Yandex.Metrika counter -->
-<style>
-          * {
-            box-sizing: border-box;
-            -moz-box-sizing: border-box;
-          }
-          @media \0screen {
-            max-width: 1000px;
-            margin-left: auto;
-            margin-right: auto;
-          }
-
-          body {
-            display: block;
-            max-width: 1000px;
-            margin: 0 auto;
-            background-color: #f1d8d8;
-            ￼font-size: 14px;
-          }
-          .container-fluid h4 {
-            border: 2px solid;
-
-            background-image: url(/static/fonts/fon2.jpg);
-            padding: 10px;
-            margin: 0;
-          }
-
-</style>
 </head>
   
   <body>
@@ -110,7 +55,8 @@
   <div class="container" id="content">
     <div class="row">
       <div class="col-md-4 col-md-offset-1">
-        <a class="btnBack"><button class="btn" onClick = goBack()><h5><span class='glyphicon glyphicon-arrow-left'> Вернуться назад</h5></button>
+        <a><button class="btn" id = "GoBack" onClick = goBack()>
+            <h5><span class='glyphicon glyphicon-arrow-left'> Вернуться назад</h5></button>
         </a>
       </div>
       <div class ="col-md-6">
@@ -163,5 +109,33 @@
     
 <script src ="/static/test_js.js"> </script>
 
+    <!-- Yandex.Metrika counter -->
+    <script type="text/javascript">
+        (function (d, w, c) {
+          (w[c] = w[c] || []).push(function() {
+            try {
+              w.yaCounter38259105 = new Ya.Metrika({
+                id:38259105,
+                clickmap:true,
+                trackLinks:true,
+                accurateTrackBounce:true
+              });
+            } catch(e) { }
+          });
+
+          var n = d.getElementsByTagName("script")[0],
+          s = d.createElement("script"),
+          f = function () { n.parentNode.insertBefore(s, n); };
+            s.type = "text/javascript";
+            s.async = true;
+            s.src = "https://mc.yandex.ru/metrika/watch.js";
+
+            if (w.opera == "[object Opera]") {
+              d.addEventListener("DOMContentLoaded", f, false);
+            } else { f(); }
+        })(document, window, "yandex_metrika_callbacks");
+      </script>
+      <noscript><div><img src="https://mc.yandex.ru/watch/38259105" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+    <!-- /Yandex.Metrika counter -->
   </body>
 </html>
