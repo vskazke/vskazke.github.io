@@ -40,12 +40,11 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav navbar-left">
-            <li><a href=/>Все Сказки</a></li>
+            <li><a href=/>Все Сказки с картинками</a></li>
             <li><a href=/contacts/>О Сайте</a></li>
             <li><a href=/search/>Поиск сказок</a></li>
             <li><a href=/contacts/>Контакты</a></li>
           </ul>
-
         </div><!-- /.navbar-collapse -->
       </div><!-- /.container-fluid -->
     </nav>
@@ -61,7 +60,8 @@
 </style>
 <body>
   <div class="container-fluid">
-    <div class="main-navigation">
+    <div class="hidden-xs">
+      <div class="main-navigation">
   <div id="carousel" class="carousel slide">
     <ol class="carousel-indicators">
       <li data-target="#carousel" data-slide-to="0" class="active"></li>
@@ -173,6 +173,7 @@
   </div>
 </div>
 
+    </div>
   </div>
   <div class="container-fluid" id="main-body">
     <div class="main-body">
@@ -253,10 +254,14 @@
       </div>
     <div class="col-md-6 col-md-pull-3">
       <h4>Информация о сайте</h4>
-      <strong><p>На данном сайте вы найдете много сказок для ваших деток.</p>
+      <strong><p>На данном сайте вы найдете много сказок с картинками для ваших малышей.</p>
       <p>Удобное управление перещелкивания картинок, создает эффект перелистывания страниц,
       что привлечет внимание даже самого юного читателя. </p>
-    </strong>
+      <p>Можно использовать кнопки управления вперед/назад  с помощью стрелок на клавиатуре
+      <img src="/static/fonts/buttonBack.png" width='60px' height=auto><img>
+      , а также кнопки пробела <img src="/static/fonts/btn_space.png" width='80px' height=auto></img> и
+      <img src="/static/fonts/btn_enter.png" width='60px' height=auto></img> для перещелкивания страниц вперед
+      </p></strong>
       <h4>Контакты</h4>
       <p>Если Вы не нашли на нашем сайте Вашу любимую сказку с иллюстрациями или
         Вы хотите прислать нам свою любимую сказку,  вы можете написать на нашу почту</p>

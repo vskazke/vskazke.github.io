@@ -40,12 +40,11 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav navbar-left">
-            <li><a href=/>Все Сказки</a></li>
+            <li><a href=/>Все Сказки с картинками</a></li>
             <li><a href=/contacts/>О Сайте</a></li>
             <li><a href=/search/>Поиск сказок</a></li>
             <li><a href=/contacts/>Контакты</a></li>
           </ul>
-
         </div><!-- /.navbar-collapse -->
       </div><!-- /.container-fluid -->
     </nav>
@@ -53,14 +52,14 @@
     
     
 <body>
-  <div class='container'>
+  <div class='container-fluid'>
     <div class="row">
-      <div class="col-md-3 col-md-offset-1">
+      <div class="col-md-3">
         <a><button class="btn"  id="GoBack" onClick="history.back()">
           <h5><span class='glyphicon glyphicon-arrow-left'> Вернуться назад</h5>
         </button></a>
       </div>
-      <div class="col-md-4">
+      <div class="col-md-6">
         <div class="search-skazka">
           <div class="form-inline">
             <input class="form-control" id='skazka_search'>
@@ -69,10 +68,77 @@
         </div>
       </div>
     </div>
+    <div class='row'>
+        <div class = "col-md-8 col-md-push-3">
+          <h4>Результаты поиска</h4>
+          <div id = 'result'></div>
+        </div>
+      <div class="col-md-3 col-md-pull-8">
+        <h4>Разделы</h4>
+<div class="list-group" id="teg">
+  <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+    <div class="panel panel-default">
+      <div class="panel-heading" role="tab" id="headList1">
+        <h6 class="panel-title">
+          <a role="button" data-toggle="collapse" data-parent="#accordion" href="#List1" aria-expanded="false" aria-controls="List1">
+            Сказки русских Авторов
+          </a>
+        </h6>
+      </div>
+      <div id="List1" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headList1">
+        <div class="list-group">
+          <a href="/index/Suteev/" class="list-group-item">Сказки Сутеева</a>
+          <a href="/index/Mamin-Sibiryak/"  class="list-group-item">Сказки Мамин-Сибиряк</a>
+          <a href="/index/Kataev/"  class="list-group-item">Сказки Катава</a>
+          <a href="/index/Plyackovskiy/"  class="list-group-item">Сказки Пляцковского</a>
+          <a href="/index/o_Shishe/"  class="list-group-item">Сказки о Шише</a>
+          <a href="/index/15_sester/"  class="list-group-item">Сказки серии 15 сестер</a>
+        </div>
+      </div>
+    </div>
+    <div class="panel panel-default">
+      <div class="panel-heading" role="tab" id="headList2">
+        <h6 class="panel-title">
+          <a role="button" data-toggle="collapse" data-parent="#accordion" href="#List2" aria-expanded="true" aria-controls="List2">
+            Сказки Зарубежных Авторов
+          </a>
+        </h6>
+      </div>
+      <div id="List2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headList2">
+        <div class="list-group">
+          <a href="/index/Grimm/" class="list-group-item">Сказки братьев Гримм</a>
+          <a href="/index/Andersen/"  class="list-group-item">Сказки Андерсена</a>
+          <a href="/index/Perrow/"  class="list-group-item">Сказки Перро</a>
+          <a href="/index/Kipling/"  class="list-group-item">Сказки Киплинга</a>
+          <a href="/index/Disney/"  class="list-group-item">Сказки с иллюстрацями Disney</a>
+        </div>
+      </div>
+    </div>
+    <div class="panel panel-default">
+      <div class="panel-heading" role="tab">
+        <h6 class="panel-title">
+          <a role="button"  href="/index/Baby/">Сказки для самых маленьких</a>
+        </h6>
+      </div>
+    </div>
+    <div class="panel panel-default">
+      <div class="panel-heading" role="tab">
+        <h6 class="panel-title">
+          <a role="button"  href="/index/Another/">Разные сказки в картинках</a>
+        </h6>
+      </div>
+    </div>
+    <div class="panel panel-default">
+      <div class="panel-heading" role="tab">
+        <h6 class="panel-title">
+          <a role="button"  href="/index/Bilini/">Былины</a>
+        </h6>
+      </div>
+    </div>
   </div>
-  <div class="container">
-    <div class = "col-md-3 col-md-offset-1">
-      <div id = 'result'></div>
+</div>
+      </div>
+      </div>
     </div>
   </div>
 </body>

@@ -14,14 +14,15 @@ $(document).ready(function () {
         $.getJSON(url, function (data) {
             title = data.skazka_search;
             for (i = 0; i < title.length; i += 1) {
-                if (title[i].title.toLowerCase().match(name)) {
+                if (name == ' ' || name == '') {
+                    result = [];
+                } else if (title[i].title.toLowerCase().match(name)) {
                     result.push(title[i]);
                 }
             }
             if (result.length <= 0) {
                 result = ['NO'];
             }
-            $('#result').append('<h5>Результат поиска</h5>');
             for (i = 0; i < result.length; i += 1) {
                 if (result[i] === 'NO') {
                     $('#result').html('<p>Ничего не найдено</p>');
@@ -46,14 +47,15 @@ $(document).ready(function () {
             $.getJSON(url, function (data) {
                 title = data.skazka_search;
                 for (i = 0; i < title.length; i += 1) {
-                    if (title[i].title.toLowerCase().match(name)) {
+                    if (name == ' ' || name == '') {
+                        result = [];
+                    } else if (title[i].title.toLowerCase().match(name)) {
                         result.push(title[i]);
-                    }
+                    };
                 }
                 if (result.length <= 0) {
                     result = ['NO'];
                 }
-                $('#result').append('<h5>Результат поиска</h5>');
                 for (i = 0; i < result.length; i += 1) {
                     if (result[i] === 'NO') {
                         $('#result').html('<p>Ничего не найдено</p>');
