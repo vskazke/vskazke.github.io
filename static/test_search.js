@@ -30,7 +30,7 @@ $(document).ready(function () {
                     $('#result').append('<a href="' + result[i].url + '">' +
                                 '<button class="btn btn-default" id="skazka-title">' +
                                 '<img src=' + result[i].first_img + ' width="150px" height="150px">' +
-                                '<br><strong>' + result[i].title + '</strong></br></button></a>');
+                                '<br><h1>' + result[i].title + '</h1></br></button></a>');
                 }
             }
         });
@@ -63,7 +63,7 @@ $(document).ready(function () {
                     $('#result').append('<a href="' + result[i].url + '">' +
                                 '<button class="btn btn-default" id="skazka-title">' +
                                 '<img src=' + result[i].first_img + ' width="150px" height="150px">' +
-                                '<br><strong>' + result[i].title + '</strong></br></button></a>');
+                                '<br><h1>' + result[i].title + '</h1></br></button></a>');
                     }
                 }
             });
