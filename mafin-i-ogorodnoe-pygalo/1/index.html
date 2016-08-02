@@ -62,19 +62,19 @@
 <body>
   <div class="container" id="content">
     <div class="row">
-      <div class="col-md-4 col-md-offset-1">
+      <div class="col-md-4 col-md-offset-1 col-sm-4 col-sm-offset-1">
         <a><button class="btn" id = "GoBack" onClick = goBack()>
             <h5><span class='glyphicon glyphicon-arrow-left'> Вернуться назад</h5></button>
         </a>
       </div>
-      <div class ="col-md-6">
+      <div class ="col-md-6 col-sm-6">
         <h4>Мафин и огородное пугало </h4>
       </div>
     </div>
     <table class="table">
       <tr>
-        <td class="button">
-          
+        <td class="button"  onClick = "return changeImageBack()">
+        
           <a class="btn" onClick = "return changeImageBack()" href=/mafin-i-ogorodnoe-pygalo/0/>
               <span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span>
           </a>
@@ -82,7 +82,7 @@
         </td>
         <td>
           <div class="row">
-            <div class="col-md-4">
+            <div class="col-md-4 col-sm-4">
               <p id = 'text' onClick = changeImageForward()>
 Когда прилетают птицы клевать семена и молодые всходы, Сэмюэл машет руками и кричит: «Пош-шли отсюда! Пош-шли!..»
 Мафин любит навещать Сэмюэла. Он садится рядом и с удовольствием слушает его рассказы о фермах и фермерах, об урожаях и сенокосах. Сэмюэл уже очень давно охраняет поля от птиц и побывал на многих фермах.
@@ -95,12 +95,12 @@
 – Боюсь, что не смогу пойти с тобой, Мафии! – сказал он ослику. – Тебе придётся идти одному. Посмотри-ка сюда!
  </p>
             </div>
-            <div class="col-md-8">
+            <div class="col-md-8 col-sm-8">
                 <img class="img-responsive" src=../../static/skazki_image/mafin-i-ogorodnoe-pygalo/1.jpg id = 'image' onClick= changeImageForward()></img>
                 <a href=http://audioskazki.net/archives/5351>Источник: audioskazki.net</a>
             </div>
         </td>
-        <td class="button">
+        <td class="button" onClick= "return changeImageForward()">
             
             <a class="btn" onClick= "return changeImageForward()" href=/mafin-i-ogorodnoe-pygalo/2/>
                 <span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span>

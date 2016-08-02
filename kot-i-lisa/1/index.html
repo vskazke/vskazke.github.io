@@ -61,19 +61,19 @@
 <body>
   <div class="container" id="content">
     <div class="row">
-      <div class="col-md-4 col-md-offset-1">
+      <div class="col-md-4 col-md-offset-1 col-sm-4 col-sm-offset-1">
         <a><button class="btn" id = "GoBack" onClick = goBack()>
             <h5><span class='glyphicon glyphicon-arrow-left'> Вернуться назад</h5></button>
         </a>
       </div>
-      <div class ="col-md-6">
+      <div class ="col-md-6 col-sm-6">
         <h4>Кот и лиса </h4>
       </div>
     </div>
     <table class="table">
       <tr>
-        <td class="button">
-          
+        <td class="button"  onClick = "return changeImageBack()">
+        
           <a class="btn" onClick = "return changeImageBack()" href=/kot-i-lisa/0/>
               <span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span>
           </a>
@@ -81,19 +81,19 @@
         </td>
         <td>
           <div class="row">
-            <div class="col-md-4">
+            <div class="col-md-4 col-sm-4">
               <p id = 'text' onClick = changeImageForward()>Жил-был мужик. У этого мужика был кот, только такой баловник, что беда! Надоел он до смерти. Вот мужик думал, думал, взял кота, посадил в мешок и понес в лес. Принес и бросил его в лесу  пускай пропадает.
 Кот ходил, ходил и набрел на избушку. Залез на чердак и полеживает себе. А захочет есть  пойдет в лес, птичек, мышей наловит, наестся досыта  опять на чердак, и горя ему мало!
 
 Вот пошел кот гулять, а навстречу ему лиса. Увидала кота и дивится: Сколько лет живу в лесу, такого зверя не видывала!
  </p>
             </div>
-            <div class="col-md-8">
+            <div class="col-md-8 col-sm-8">
                 <img class="img-responsive" src=../../static/skazki_image/kot-i-lisa/1.jpg id = 'image' onClick= changeImageForward()></img>
                 <a href=http://audioskazki.net/archives/564>Источник: audioskazki.net</a>
             </div>
         </td>
-        <td class="button">
+        <td class="button" onClick= "return changeImageForward()">
             
             <a class="btn" onClick= "return changeImageForward()" href=/kot-i-lisa/2/>
                 <span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span>

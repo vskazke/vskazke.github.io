@@ -61,19 +61,19 @@
 <body>
   <div class="container" id="content">
     <div class="row">
-      <div class="col-md-4 col-md-offset-1">
+      <div class="col-md-4 col-md-offset-1 col-sm-4 col-sm-offset-1">
         <a><button class="btn" id = "GoBack" onClick = goBack()>
             <h5><span class='glyphicon glyphicon-arrow-left'> Вернуться назад</h5></button>
         </a>
       </div>
-      <div class ="col-md-6">
+      <div class ="col-md-6 col-sm-6">
         <h4>Шамус и птицы </h4>
       </div>
     </div>
     <table class="table">
       <tr>
-        <td class="button">
-          
+        <td class="button"  onClick = "return changeImageBack()">
+        
           <a class="btn" onClick = "return changeImageBack()" href=/shamys-i-ptitsy/3/>
               <span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span>
           </a>
@@ -81,7 +81,7 @@
         </td>
         <td>
           <div class="row">
-            <div class="col-md-4">
+            <div class="col-md-4 col-sm-4">
               <p id = 'text' onClick = changeImageForward()>Он посмотрел на воробушка, сидящего на королевском подлокотнике, и с уст его полились какие-то странные звуки. Выслушал его воробушек, вспорхнул с кресла и, сев ему на руку, начал взволнованно чирикать. Шамус слушал и согласно кивал головой. Такого чуда король отродясь не видывал.
 — Ну вот, ваше величество, — наконец повернулся к королю Шамус, — дело проще простого. Вы отдали повеление срубить все деревья в королевском парке, а в их кронах птицы вили гнёзда испокон века. Им теперь негде выводить птенцов. Вот они и подняли шум. Прикажите дровосекам не трогать деревья, и птицы сейчас же угомонятся.
 Услыхал король эти слова, вскочил с кресла, распахнул настежь двери и велит отдать приказ дровосекам не рубить больше деревьев в его королевском парке. Тотчас вышли из замка шестеро солдат и затрубили в серебряные трубы.
@@ -90,12 +90,12 @@
 Верный обещанию, король щедро наградил Шамуса, подарил ему корабль, много золота и всяких драгоценностей.
  </p>
             </div>
-            <div class="col-md-8">
+            <div class="col-md-8 col-sm-8">
                 <img class="img-responsive" src=../../static/skazki_image/shamys-i-ptitsy/4.jpg id = 'image' onClick= changeImageForward()></img>
                 <a href=http://audioskazki.net/archives/5370>Источник: audioskazki.net</a>
             </div>
         </td>
-        <td class="button">
+        <td class="button" onClick= "return changeImageForward()">
             
             <a class="btn" onClick= "return changeImageForward()" href=/shamys-i-ptitsy/5/>
                 <span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span>

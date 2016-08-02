@@ -61,19 +61,19 @@
 <body>
   <div class="container" id="content">
     <div class="row">
-      <div class="col-md-4 col-md-offset-1">
+      <div class="col-md-4 col-md-offset-1 col-sm-4 col-sm-offset-1">
         <a><button class="btn" id = "GoBack" onClick = goBack()>
             <h5><span class='glyphicon glyphicon-arrow-left'> Вернуться назад</h5></button>
         </a>
       </div>
-      <div class ="col-md-6">
+      <div class ="col-md-6 col-sm-6">
         <h4>Бременские музыканты</h4>
       </div>
     </div>
     <table class="table">
       <tr>
-        <td class="button">
-          
+        <td class="button"  onClick = "return changeImageBack()">
+        
           <a class="btn" onClick = "return changeImageBack()" href=/bremenskie-myzykanty/3/>
               <span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span>
           </a>
@@ -81,16 +81,16 @@
         </td>
         <td>
           <div class="row">
-            <div class="col-md-4">
+            <div class="col-md-4 col-sm-4">
               <p id = 'text' onClick = changeImageForward()>- Ей, вижу дом!- закричал петух друзьям.- Может там живут добрые люди и пустят нас на ночлег...- Может даже по косточке дадут, чтоб голод заглушить - размечталась собака.Свет от окна привел друзей к маленькому домику в лесу. Осел заглянул в окно.- Вижу богато накрытый стол и несколько страшных разбойников. Наверно ограбили кого-то и сейчас сидят празднуют - сказал он.- Нужно их прогнать!- зарычал пес.Тогда осел поставил на подоконник передние ноги, собака вскочила ему на спину, на голову собаки запрыгнул кот, а петух взлетел на кота и стали неожиданно реветь, лаять, мяукать кукарекать, все на свой лад. А потом одним прыжком заскочили в дом.
  </p>
             </div>
-            <div class="col-md-8">
+            <div class="col-md-8 col-sm-8">
                 <img class="img-responsive" src=../../static/skazki_image/bremenskie-myzykanty/4.jpg id = 'image' onClick= changeImageForward()></img>
                 <a href=http://audioskazki.info/skazki_s_kartinkami/3979-skazka-s-kartinkami-bremenskie-muzykanty.html>Источник: audioskazki.info</a>
             </div>
         </td>
-        <td class="button">
+        <td class="button" onClick= "return changeImageForward()">
             
             <a class="btn" onClick= "return changeImageForward()" href=/bremenskie-myzykanty/5/>
                 <span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span>

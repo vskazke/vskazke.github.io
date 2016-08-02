@@ -62,19 +62,19 @@
 <body>
   <div class="container" id="content">
     <div class="row">
-      <div class="col-md-4 col-md-offset-1">
+      <div class="col-md-4 col-md-offset-1 col-sm-4 col-sm-offset-1">
         <a><button class="btn" id = "GoBack" onClick = goBack()>
             <h5><span class='glyphicon glyphicon-arrow-left'> Вернуться назад</h5></button>
         </a>
       </div>
-      <div class ="col-md-6">
+      <div class ="col-md-6 col-sm-6">
         <h4>Откуда у носорога шкура</h4>
       </div>
     </div>
     <table class="table">
       <tr>
-        <td class="button">
-          
+        <td class="button"  onClick = "return changeImageBack()">
+        
           <a class="btn" onClick = "return changeImageBack()" href=/otkyda-y-nosoroga-shkyra/0/>
               <span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span>
           </a>
@@ -82,7 +82,7 @@
         </td>
         <td>
           <div class="row">
-            <div class="col-md-4">
+            <div class="col-md-4 col-sm-4">
               <p id = 'text' onClick = changeImageForward()>
 В те времена Носороги носили шкуру в обтяжку, без единой складочки, и очень смахивали на деревянных, игрушечных, только были, понятно, крупнее. Всё же они и теперь невоспитанные, и прежде были невоспитанные, и всегда будут невоспитанные.
 Носорог сказал:
@@ -90,12 +90,12 @@
 И покинул парс пирог, и бросился к пальме, и, в чем был, полез на верхушку; а был он в одной только шапке, и шапка блестела на солнце, как солнце.
  </p>
             </div>
-            <div class="col-md-8">
+            <div class="col-md-8 col-sm-8">
                 <img class="img-responsive" src=../../static/skazki_image/otkyda-y-nosoroga-shkyra/1.jpg id = 'image' onClick= changeImageForward()></img>
                 <a href=http://audioskazki.net/archives/5231>Источник: audioskazki.net</a>
             </div>
         </td>
-        <td class="button">
+        <td class="button" onClick= "return changeImageForward()">
             
             <a class="btn" onClick= "return changeImageForward()" href=/otkyda-y-nosoroga-shkyra/2/>
                 <span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span>

@@ -62,19 +62,19 @@
 <body>
   <div class="container" id="content">
     <div class="row">
-      <div class="col-md-4 col-md-offset-1">
+      <div class="col-md-4 col-md-offset-1 col-sm-4 col-sm-offset-1">
         <a><button class="btn" id = "GoBack" onClick = goBack()>
             <h5><span class='glyphicon glyphicon-arrow-left'> Вернуться назад</h5></button>
         </a>
       </div>
-      <div class ="col-md-6">
+      <div class ="col-md-6 col-sm-6">
         <h4>Мафин-сыщик </h4>
       </div>
     </div>
     <table class="table">
       <tr>
-        <td class="button">
-          
+        <td class="button"  onClick = "return changeImageBack()">
+        
           <a class="btn" onClick = "return changeImageBack()" href=/mafin-syschik/1/>
               <span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span>
           </a>
@@ -82,19 +82,19 @@
         </td>
         <td>
           <div class="row">
-            <div class="col-md-4">
+            <div class="col-md-4 col-sm-4">
               <p id = 'text' onClick = changeImageForward()>
 Сэлли объяснила, как было дело. Потом Мафин попросил её показать то место, где она оставила мячик. Обнюхав и осмотрев песок, он нашёл там кое-что существенное.
 – Ага! – сказал сыщик. – Это следы! Без сомнения, эта улика поможет нам отыскать преступника.
 Он сбегал домой, надел другую шапочку, привязал седую бороду и снова принялся за поиски. Ему казалось, что он похож на старого-престарого старичка и что никто не сможет узнать его. По дороге он встретил щенка Питера.
  </p>
             </div>
-            <div class="col-md-8">
+            <div class="col-md-8 col-sm-8">
                 <img class="img-responsive" src=../../static/skazki_image/mafin-syschik/2.jpg id = 'image' onClick= changeImageForward()></img>
                 <a href=http://audioskazki.net/archives/5382>Источник: audioskazki.net</a>
             </div>
         </td>
-        <td class="button">
+        <td class="button" onClick= "return changeImageForward()">
             
             <a class="btn" onClick= "return changeImageForward()" href=/mafin-syschik/3/>
                 <span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span>

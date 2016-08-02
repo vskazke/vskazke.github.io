@@ -62,19 +62,19 @@
 <body>
   <div class="container" id="content">
     <div class="row">
-      <div class="col-md-4 col-md-offset-1">
+      <div class="col-md-4 col-md-offset-1 col-sm-4 col-sm-offset-1">
         <a><button class="btn" id = "GoBack" onClick = goBack()>
             <h5><span class='glyphicon glyphicon-arrow-left'> Вернуться назад</h5></button>
         </a>
       </div>
-      <div class ="col-md-6">
+      <div class ="col-md-6 col-sm-6">
         <h4>Прилла и исчезающие феи</h4>
       </div>
     </div>
     <table class="table">
       <tr>
-        <td class="button">
-          
+        <td class="button"  onClick = "return changeImageBack()">
+        
           <a class="btn" onClick = "return changeImageBack()" href=/prilla-i-ischezauschie-fei/29/>
               <span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span>
           </a>
@@ -82,7 +82,7 @@
         </td>
         <td>
           <div class="row">
-            <div class="col-md-4">
+            <div class="col-md-4 col-sm-4">
               <p id = 'text' onClick = changeImageForward()>
 Блинк! Прилла перенеслась на континент. Нечего былои думать о завтраке! Она прекрасно помнила, что прошлойночью спасла Фон и Дульси, и страх по-прежнему неоставлял её. Она представила себе, как зайдёт в столовую... иувидит ещё одну умирающую фею...
 Да только глупо бежать от реальности. Найдя в себесилы, Прилла всё же вернулась домой... В битком набитойстоловой толпились феи. Они весело галдели. Прилларазвернулась и хотела потихоньку сбежать. Ей было уже недо еды.
@@ -90,12 +90,12 @@
 Она по-прежнему была в Дереве-Доме. Приоткрывверь, она осторожно заглянула в столовую и увидела, чтовсе феи радостно машут ей:— Прилла! Прилла!
  </p>
             </div>
-            <div class="col-md-8">
+            <div class="col-md-8 col-sm-8">
                 <img class="img-responsive" src=../../static/skazki_image/prilla-i-ischezauschie-fei/30.jpg id = 'image' onClick= changeImageForward()></img>
                 <a href=http://skazkivcem.com//disney-online/prilla-i-ishezaushie-fei>Источник: skazkivcem.com</a>
             </div>
         </td>
-        <td class="button">
+        <td class="button" onClick= "return changeImageForward()">
             
             <a class="btn" onClick= "return changeImageForward()" href=/prilla-i-ischezauschie-fei/31/>
                 <span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span>

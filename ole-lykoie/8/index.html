@@ -61,19 +61,19 @@
 <body>
   <div class="container" id="content">
     <div class="row">
-      <div class="col-md-4 col-md-offset-1">
+      <div class="col-md-4 col-md-offset-1 col-sm-4 col-sm-offset-1">
         <a><button class="btn" id = "GoBack" onClick = goBack()>
             <h5><span class='glyphicon glyphicon-arrow-left'> Вернуться назад</h5></button>
         </a>
       </div>
-      <div class ="col-md-6">
+      <div class ="col-md-6 col-sm-6">
         <h4>Оле-Лукойе</h4>
       </div>
     </div>
     <table class="table">
       <tr>
-        <td class="button">
-          
+        <td class="button"  onClick = "return changeImageBack()">
+        
           <a class="btn" onClick = "return changeImageBack()" href=/ole-lykoie/7/>
               <span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span>
           </a>
@@ -81,7 +81,7 @@
         </td>
         <td>
           <div class="row">
-            <div class="col-md-4">
+            <div class="col-md-4 col-sm-4">
               <p id = 'text' onClick = changeImageForward()>— Сегодня надо будет принарядить к завтрашнему дню весь  мир! — продолжал Оле. — Завтра святой день, воскресенье. Мне надо  пойти на колокольню посмотреть, вычистили ли церковные карлики все  колокола, иначе они плохо будут звонить завтра; потом надо в поле —  посмотреть, смел ли ветер пыль с травы и листьев. Самая же трудная  работа еще впереди: надо снять с неба и перечистить все звездочки. Я  собираю их в свой передник, но приходится нумеровать каждую звездочку и  каждую дырочку, где она сидела, чтобы потом разместить их как следует,  иначе они плохо будут держаться и посыплются с неба одна за другой!
 — Послушайте-ка, господин Оле-Лукойе! — сказал вдруг  висевший на стене старый портрет. — Я прадедушка Яльмара и очень вам  благодарен за то, что вы рассказываете мальчику сказки, но вы не должны  извращать его понятий. Звезды нельзя снимать с неба и чистить. Звезды —  такие же светила, как наша земля, тем-то они и хороши!
 — Спасибо тебе, прадедушка! — отвечал Оле-Лукойе. —  Спасибо! Ты — глава фамилии, старая голова, но я все-таки постарше  тебя! Я старый язычник; римляне и греки звали меня богом сновидений! Я  имел и имею вход в знатнейшие дома и знаю, как обходиться и с большими, и  с малыми! Можешь теперь рассказывать сам!   И Оле-Лукойе ушел, взяв под мышку свой зонтик.
@@ -95,12 +95,12 @@
 — Сейчас увидишь моего брата, другого Оле-Лукойе. Люди  зовут его также смертью. Видишь, он вовсе не такой страшный, каким  рисуют его на картинках! Кафтан на нем весь вышит серебром, что твой  гусарский мундир; за плечами развевается черный бархатный плащ! Гляди,  как он скачет в галоп!
  </p>
             </div>
-            <div class="col-md-8">
+            <div class="col-md-8 col-sm-8">
                 <img class="img-responsive" src=../../static/skazki_image/ole-lykoie/8.jpg id = 'image' onClick= changeImageForward()></img>
                 <a href=http://audioskazki.net/archives/1446>Источник: audioskazki.net</a>
             </div>
         </td>
-        <td class="button">
+        <td class="button" onClick= "return changeImageForward()">
             
             <a class="btn" onClick= "return changeImageForward()" href=/ole-lykoie/9/>
                 <span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span>

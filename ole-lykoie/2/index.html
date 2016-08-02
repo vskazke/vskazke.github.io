@@ -63,19 +63,19 @@
 <body>
   <div class="container" id="content">
     <div class="row">
-      <div class="col-md-4 col-md-offset-1">
+      <div class="col-md-4 col-md-offset-1 col-sm-4 col-sm-offset-1">
         <a><button class="btn" id = "GoBack" onClick = goBack()>
             <h5><span class='glyphicon glyphicon-arrow-left'> Вернуться назад</h5></button>
         </a>
       </div>
-      <div class ="col-md-6">
+      <div class ="col-md-6 col-sm-6">
         <h4>Оле-Лукойе</h4>
       </div>
     </div>
     <table class="table">
       <tr>
-        <td class="button">
-          
+        <td class="button"  onClick = "return changeImageBack()">
+        
           <a class="btn" onClick = "return changeImageBack()" href=/ole-lykoie/1/>
               <span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span>
           </a>
@@ -83,7 +83,7 @@
         </td>
         <td>
           <div class="row">
-            <div class="col-md-4">
+            <div class="col-md-4 col-sm-4">
               <p id = 'text' onClick = changeImageForward()>
 — Ах, мы бы и рады, — отвечали буквы Яльмара, — да не можем! Мы такие плохонькие!
 — Так я угощу вас детским порошком! — сказал Оле-Лукойе.
@@ -95,12 +95,12 @@
 Как только Яльмар улегся, Оле-Лукойе дотронулся своею  волшебною спринцовкой до комнатной мебели, и все вещи сейчас же начали  болтать между собою; все, кроме плевательницы, — эта молчала и  сердилась про себя на их суетность говорить только о себе да о себе и  даже не подумать о той, что так скромно стоит в углу и позволяет в себя  плевать!   Над комодом висела большая картина в золоченой раме; на ней  была изображена красивая местность: высокие, старые деревья, трава,  цветы и большая река, убегавшая мимо чудных дворцов за лес, в далекое  море.   Оле-Лукойе дотронулся волшебною спринцовкой до картины, и  нарисованные на ней птицы запели, ветви деревьев зашевелились, а облака  понеслись по небу; видно было даже, как скользила по картине их тень.   Затем Оле приподнял Яльмара к раме, и мальчик стал ногами  прямо в высокую траву. Солнышко светило на него сквозь ветви деревьев,  он побежал к воде и уселся в лодочку, которая колыхалась у берега.  Лодочка была выкрашена красною и белою краской, паруса блестели, как  серебряные, и шесть лебедей в золотых коронах, с сияющими голубыми  звездами на головах повлекли лодочку вдоль зеленых лесов, где деревья  рассказывали о разбойниках и ведьмах, а цветы — о прелестных маленьких  эльфах и о том, что рассказывали им бабочки.
  </p>
             </div>
-            <div class="col-md-8">
+            <div class="col-md-8 col-sm-8">
                 <img class="img-responsive" src=../../static/skazki_image/ole-lykoie/2.jpg id = 'image' onClick= changeImageForward()></img>
                 <a href=http://audioskazki.net/archives/1446>Источник: audioskazki.net</a>
             </div>
         </td>
-        <td class="button">
+        <td class="button" onClick= "return changeImageForward()">
             
             <a class="btn" onClick= "return changeImageForward()" href=/ole-lykoie/3/>
                 <span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span>

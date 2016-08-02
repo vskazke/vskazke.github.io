@@ -63,19 +63,19 @@
 <body>
   <div class="container" id="content">
     <div class="row">
-      <div class="col-md-4 col-md-offset-1">
+      <div class="col-md-4 col-md-offset-1 col-sm-4 col-sm-offset-1">
         <a><button class="btn" id = "GoBack" onClick = goBack()>
             <h5><span class='glyphicon glyphicon-arrow-left'> Вернуться назад</h5></button>
         </a>
       </div>
-      <div class ="col-md-6">
+      <div class ="col-md-6 col-sm-6">
         <h4>Мудрый старик</h4>
       </div>
     </div>
     <table class="table">
       <tr>
-        <td class="button">
-          
+        <td class="button"  onClick = "return changeImageBack()">
+        
           <a class="btn" onClick = "return changeImageBack()" href=/mydryi-starik/13/>
               <span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span>
           </a>
@@ -83,7 +83,7 @@
         </td>
         <td>
           <div class="row">
-            <div class="col-md-4">
+            <div class="col-md-4 col-sm-4">
               <p id = 'text' onClick = changeImageForward()>
 И сказал:
 — И эту загадку ты разгадал, хвалю тебя! Через три дня приходи ко мне ни пешком, ни на коне, с подарком и без подарка. Ежели исполнишь все, как надо, награжу по-царски, а не исполнишь, пеняй на себя: мой меч — твоя голова с плеч!
@@ -96,12 +96,12 @@
 — Ступай в лес, поймай живого зайца да живую перепёлку. Я научу тебя, как с царём обойтись.
  </p>
             </div>
-            <div class="col-md-8">
+            <div class="col-md-8 col-sm-8">
                 <img class="img-responsive" src=../../static/skazki_image/mydryi-starik/14.jpg id = 'image' onClick= changeImageForward()></img>
                 <a href=http://audioskazki.net/archives/4621>Источник: audioskazki.net</a>
             </div>
         </td>
-        <td class="button">
+        <td class="button" onClick= "return changeImageForward()">
             
             <a class="btn" onClick= "return changeImageForward()" href=/mydryi-starik/15/>
                 <span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span>

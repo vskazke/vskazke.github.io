@@ -62,19 +62,19 @@
 <body>
   <div class="container" id="content">
     <div class="row">
-      <div class="col-md-4 col-md-offset-1">
+      <div class="col-md-4 col-md-offset-1 col-sm-4 col-sm-offset-1">
         <a><button class="btn" id = "GoBack" onClick = goBack()>
             <h5><span class='glyphicon glyphicon-arrow-left'> Вернуться назад</h5></button>
         </a>
       </div>
-      <div class ="col-md-6">
+      <div class ="col-md-6 col-sm-6">
         <h4>Откуда взялись броненосцы</h4>
       </div>
     </div>
     <table class="table">
       <tr>
-        <td class="button">
-          
+        <td class="button"  onClick = "return changeImageBack()">
+        
           <a class="btn" onClick = "return changeImageBack()" href=/otkyda-vzyalis-bronenostsy/6/>
               <span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span>
           </a>
@@ -82,7 +82,7 @@
         </td>
         <td>
           <div class="row">
-            <div class="col-md-4">
+            <div class="col-md-4 col-sm-4">
               <p id = 'text' onClick = changeImageForward()>
 - Ах, сыночек, сыночек!  заговорила она, изящно помахивая грациозным хвостом.  Ты, кажется, делал такое, чего тебе не следовало делать.
 - Я встретил над рекою одну зверюшку и хотел выцарапать её из-под панциря; она сама сказала, что ей хочется этого, и вот теперь у меня вся лапа в зано-о-озах!
@@ -111,12 +111,12 @@
 Так до самого утра они помогали друг другу, а когда солнце поднялось высоко над землёй, они сели отдохнуть и обсушиться. И, глядя друг на друга, заметили, что стали совсем на себя не похожи.
  </p>
             </div>
-            <div class="col-md-8">
+            <div class="col-md-8 col-sm-8">
                 <img class="img-responsive" src=../../static/skazki_image/otkyda-vzyalis-bronenostsy/7.jpg id = 'image' onClick= changeImageForward()></img>
                 <a href=http://audioskazki.net/archives/5235>Источник: audioskazki.net</a>
             </div>
         </td>
-        <td class="button">
+        <td class="button" onClick= "return changeImageForward()">
             
             <a class="btn" onClick= "return changeImageForward()" href=/otkyda-vzyalis-bronenostsy/8/>
                 <span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span>

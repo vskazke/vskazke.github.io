@@ -61,19 +61,19 @@
 <body>
   <div class="container" id="content">
     <div class="row">
-      <div class="col-md-4 col-md-offset-1">
+      <div class="col-md-4 col-md-offset-1 col-sm-4 col-sm-offset-1">
         <a><button class="btn" id = "GoBack" onClick = goBack()>
             <h5><span class='glyphicon glyphicon-arrow-left'> Вернуться назад</h5></button>
         </a>
       </div>
-      <div class ="col-md-6">
+      <div class ="col-md-6 col-sm-6">
         <h4>Снежная Королева</h4>
       </div>
     </div>
     <table class="table">
       <tr>
-        <td class="button">
-          
+        <td class="button"  onClick = "return changeImageBack()">
+        
           <a class="btn" onClick = "return changeImageBack()">
               <span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span>
           </a>
@@ -81,7 +81,7 @@
         </td>
         <td>
           <div class="row">
-            <div class="col-md-4">
+            <div class="col-md-4 col-sm-4">
               <p id = 'text' onClick = changeImageForward()>Давным-давно жили по соседству двое детей: мальчик Кай и девочка Герда.Однажды зимой они сидели у окна и смотрели, как на улице кружаться снежинки.- Интересно, - задумчиво протянул Кай, - а у них есть королева?- Конечно, - кивнула бабушка. - Ночью она летает по улице в снежной колеснице и заглядывает в окна. И тогда на стеклах появляются ледяные узоры.На другой день, когда дети снова играли у окна, Кай вдруг вскрикнул:-Ай, что-то кольнуло меня в глаз, а потом в сердце!Бедный мальчик еще не знал, что это осколок ледяного зеркала Снежной королевы, который должен был превратить его сердце в лед.
 
 
@@ -89,12 +89,12 @@
 
  </p>
             </div>
-            <div class="col-md-8">
+            <div class="col-md-8 col-sm-8">
                 <img class="img-responsive" src=../../static/skazki_image/snezhnaya-koroleva/0.jpg id = 'image' onClick= changeImageForward()></img>
                 <a href=http://audioskazki.info/skazki_s_kartinkami/738-skazka-s-kartinkami-snezhnaya-koroleva.html>Источник: audioskazki.info</a>
             </div>
         </td>
-        <td class="button">
+        <td class="button" onClick= "return changeImageForward()">
             
             <a class="btn" onClick= "return changeImageForward()" href=/snezhnaya-koroleva/1/>
                 <span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span>

@@ -62,19 +62,19 @@
 <body>
   <div class="container" id="content">
     <div class="row">
-      <div class="col-md-4 col-md-offset-1">
+      <div class="col-md-4 col-md-offset-1 col-sm-4 col-sm-offset-1">
         <a><button class="btn" id = "GoBack" onClick = goBack()>
             <h5><span class='glyphicon glyphicon-arrow-left'> Вернуться назад</h5></button>
         </a>
       </div>
-      <div class ="col-md-6">
+      <div class ="col-md-6 col-sm-6">
         <h4>Мафин печёт пирог </h4>
       </div>
     </div>
     <table class="table">
       <tr>
-        <td class="button">
-          
+        <td class="button"  onClick = "return changeImageBack()">
+        
           <a class="btn" onClick = "return changeImageBack()" href=/mafin-pechet-pirog/5/>
               <span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span>
           </a>
@@ -82,18 +82,18 @@
         </td>
         <td>
           <div class="row">
-            <div class="col-md-4">
+            <div class="col-md-4 col-sm-4">
               <p id = 'text' onClick = changeImageForward()>
 Но когда Мафин сорвал с грядки зелёный пучок ботвы, он вдруг заметил молоденький лиловый чертополох. Он и его сорвал и, повеселев, побежал со своим букетом домой.
 Войдя в кухню, он обомлел. Перигрина не было, но зато пришёл страус Освальд. Освальд вытащил пирог из духовки и наклонился над ним. Мафин притаился и смотрел. Освальд украшал пирог перышками из своего хвоста… Ноздри у Мафина задрожали, а из правого глаза медленно потекла слеза. Разве это был тот чудесный пирог, о котором он мечтал?
  </p>
             </div>
-            <div class="col-md-8">
+            <div class="col-md-8 col-sm-8">
                 <img class="img-responsive" src=../../static/skazki_image/mafin-pechet-pirog/6.jpg id = 'image' onClick= changeImageForward()></img>
                 <a href=http://audioskazki.net/archives/5386>Источник: audioskazki.net</a>
             </div>
         </td>
-        <td class="button">
+        <td class="button" onClick= "return changeImageForward()">
             
             <a class="btn" onClick= "return changeImageForward()" href=/mafin-pechet-pirog/7/>
                 <span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span>

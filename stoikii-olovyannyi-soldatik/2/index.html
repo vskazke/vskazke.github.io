@@ -62,19 +62,19 @@
 <body>
   <div class="container" id="content">
     <div class="row">
-      <div class="col-md-4 col-md-offset-1">
+      <div class="col-md-4 col-md-offset-1 col-sm-4 col-sm-offset-1">
         <a><button class="btn" id = "GoBack" onClick = goBack()>
             <h5><span class='glyphicon glyphicon-arrow-left'> Вернуться назад</h5></button>
         </a>
       </div>
-      <div class ="col-md-6">
+      <div class ="col-md-6 col-sm-6">
         <h4>Стойкий оловянный солдатик</h4>
       </div>
     </div>
     <table class="table">
       <tr>
-        <td class="button">
-          
+        <td class="button"  onClick = "return changeImageBack()">
+        
           <a class="btn" onClick = "return changeImageBack()" href=/stoikii-olovyannyi-soldatik/1/>
               <span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span>
           </a>
@@ -82,17 +82,17 @@
         </td>
         <td>
           <div class="row">
-            <div class="col-md-4">
+            <div class="col-md-4 col-sm-4">
               <p id = 'text' onClick = changeImageForward()>
 На столе, где очутились солдатики, было много разных  игрушек, но больше всего бросался в глаза дворец из картона. Сквозь  маленькие окна можно было видеть дворцовые покои; перед самым дворцом,  вокруг маленького зеркальца, которое изображало озеро, стояли деревца, а  по озеру плавали и любовались своим отражением восковые лебеди. Всё это  было чудо как мило, но милее всего была барышня, стоявшая на самом  пороге дворца. Она тоже была вырезана из бумаги и одета в юбочку из  тончайшего батиста; через плечо у неё шла узенькая голубая ленточка в  виде шарфа, а на груди сверкала розетка величиною с лицо самой барышни.  Барышня стояла на одной ножке, вытянув руки, — она была танцовщицей, — а  другую ногу подняла так высоко, что наш солдатик её и не увидел, и  подумал, что красавица тоже одноногая, как он.
  </p>
             </div>
-            <div class="col-md-8">
+            <div class="col-md-8 col-sm-8">
                 <img class="img-responsive" src=../../static/skazki_image/stoikii-olovyannyi-soldatik/2.jpg id = 'image' onClick= changeImageForward()></img>
                 <a href=http://audioskazki.net/archives/1419>Источник: audioskazki.net</a>
             </div>
         </td>
-        <td class="button">
+        <td class="button" onClick= "return changeImageForward()">
             
             <a class="btn" onClick= "return changeImageForward()" href=/stoikii-olovyannyi-soldatik/3/>
                 <span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span>

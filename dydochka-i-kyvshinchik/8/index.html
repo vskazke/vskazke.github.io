@@ -62,19 +62,19 @@
 <body>
   <div class="container" id="content">
     <div class="row">
-      <div class="col-md-4 col-md-offset-1">
+      <div class="col-md-4 col-md-offset-1 col-sm-4 col-sm-offset-1">
         <a><button class="btn" id = "GoBack" onClick = goBack()>
             <h5><span class='glyphicon glyphicon-arrow-left'> Вернуться назад</h5></button>
         </a>
       </div>
-      <div class ="col-md-6">
+      <div class ="col-md-6 col-sm-6">
         <h4>Дудочка и кувшинчик</h4>
       </div>
     </div>
     <table class="table">
       <tr>
-        <td class="button">
-          
+        <td class="button"  onClick = "return changeImageBack()">
+        
           <a class="btn" onClick = "return changeImageBack()" href=/dydochka-i-kyvshinchik/7/>
               <span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span>
           </a>
@@ -82,7 +82,7 @@
         </td>
         <td>
           <div class="row">
-            <div class="col-md-4">
+            <div class="col-md-4 col-sm-4">
               <p id = 'text' onClick = changeImageForward()>
 Пчёлы перестали сталкивать бабочку с цветка; бабочка захлопнула  крылья, как книгу; птенцы малиновки выглянули из своего лёгкого гнезда,  которое качалось в ветках бузины, и в восхищении разинули жёлтые рты; грибы поднимались на цыпочки, чтобы не пропустить ни одного звука, и  даже старая лупоглазая стрекоза, известная своим сварливым характером,  остановилась в воздухе, до глубины души восхищённая чудной музыкой.
 Вот теперь-то я начну собирать! — подумала Женя и уже было  протянула руку к самой большой и самой красной ягоде, как вдруг  вспомнила, что обменяла кувшинчик на дудочку и ей теперь некуда класть  землянику.
@@ -91,12 +91,12 @@
 — Дедушка, а дедушка, отдай назад мой кувшинчик! Мне ягоды некуда собирать.
  </p>
             </div>
-            <div class="col-md-8">
+            <div class="col-md-8 col-sm-8">
                 <img class="img-responsive" src=../../static/skazki_image/dydochka-i-kyvshinchik/8.jpg id = 'image' onClick= changeImageForward()></img>
                 <a href=http://audioskazki.net/archives/3025>Источник: audioskazki.net</a>
             </div>
         </td>
-        <td class="button">
+        <td class="button" onClick= "return changeImageForward()">
             
             <a class="btn" onClick= "return changeImageForward()" href=/dydochka-i-kyvshinchik/9/>
                 <span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span>

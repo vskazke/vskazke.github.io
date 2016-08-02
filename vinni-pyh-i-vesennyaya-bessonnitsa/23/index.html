@@ -61,19 +61,19 @@
 <body>
   <div class="container" id="content">
     <div class="row">
-      <div class="col-md-4 col-md-offset-1">
+      <div class="col-md-4 col-md-offset-1 col-sm-4 col-sm-offset-1">
         <a><button class="btn" id = "GoBack" onClick = goBack()>
             <h5><span class='glyphicon glyphicon-arrow-left'> Вернуться назад</h5></button>
         </a>
       </div>
-      <div class ="col-md-6">
+      <div class ="col-md-6 col-sm-6">
         <h4>Винни Пух и весенняя бессонница</h4>
       </div>
     </div>
     <table class="table">
       <tr>
-        <td class="button">
-          
+        <td class="button"  onClick = "return changeImageBack()">
+        
           <a class="btn" onClick = "return changeImageBack()" href=/vinni-pyh-i-vesennyaya-bessonnitsa/22/>
               <span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span>
           </a>
@@ -81,16 +81,16 @@
         </td>
         <td>
           <div class="row">
-            <div class="col-md-4">
+            <div class="col-md-4 col-sm-4">
               <p id = 'text' onClick = changeImageForward()>Кродик и Винни Пух принялись сажать ростки в заранее подготовленные ямки. За работой Кролик временами взвизгивал от радости, но Винни Пуху было не до веселья.«А что если медведи вообще не созданы для физической работы?» - размышлял Винни Пух.И было вовсе не удивительно, что он очень обрадовался приходу Хрюни.- Тебя нет дома, Винни, - сказал Хрюня. – Я заходил, а тебя нет дома.- Да уж, нет меня дома, - вздохнул Винни Пух.- С тех пор, как Кролик переехал, все здорово поменялось, да, Винни? – спросил Хрюня.- Да уж, - подтвердил медвежонок. – Поменялось все здорово.- А ведь и ты тоже как будто поменялся, - заметил Хрюня.- И не говори, Хрюня, совсем другой стал, - еще грустнее вздохнул Винни Пух.
  </p>
             </div>
-            <div class="col-md-8">
+            <div class="col-md-8 col-sm-8">
                 <img class="img-responsive" src=../../static/skazki_image/vinni-pyh-i-vesennyaya-bessonnitsa/23.jpg id = 'image' onClick= changeImageForward()></img>
                 <a href=http://skazkivcem.com//disney-online/vinni-puh-i-vesennyaya-bessonica>Источник: skazkivcem.com</a>
             </div>
         </td>
-        <td class="button">
+        <td class="button" onClick= "return changeImageForward()">
             
             <a class="btn" onClick= "return changeImageForward()" href=/vinni-pyh-i-vesennyaya-bessonnitsa/24/>
                 <span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span>

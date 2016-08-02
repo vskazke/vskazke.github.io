@@ -61,19 +61,19 @@
 <body>
   <div class="container" id="content">
     <div class="row">
-      <div class="col-md-4 col-md-offset-1">
+      <div class="col-md-4 col-md-offset-1 col-sm-4 col-sm-offset-1">
         <a><button class="btn" id = "GoBack" onClick = goBack()>
             <h5><span class='glyphicon glyphicon-arrow-left'> Вернуться назад</h5></button>
         </a>
       </div>
-      <div class ="col-md-6">
+      <div class ="col-md-6 col-sm-6">
         <h4>Лунтик находит друзей</h4>
       </div>
     </div>
     <table class="table">
       <tr>
-        <td class="button">
-          
+        <td class="button"  onClick = "return changeImageBack()">
+        
           <a class="btn" onClick = "return changeImageBack()" href=/lyntik-nahodit-dryzei/8/>
               <span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span>
           </a>
@@ -81,19 +81,19 @@
         </td>
         <td>
           <div class="row">
-            <div class="col-md-4">
+            <div class="col-md-4 col-sm-4">
               <p id = 'text' onClick = changeImageForward()>-Кто здесь? Как ваше имя? - вскричала черепаха.-Вот оно! - Лунтик показал скорлупу.-Как ты посмел взять мой цветочный горшок! - рассердилась черепаха.Лунтик испугался, что черепаха отберет у него имя. Он бросился прочь и нечаянно налетел на пескаря.
 
 
 
  </p>
             </div>
-            <div class="col-md-8">
+            <div class="col-md-8 col-sm-8">
                 <img class="img-responsive" src=../../static/skazki_image/lyntik-nahodit-dryzei/9.jpg id = 'image' onClick= changeImageForward()></img>
                 <a href=http://audioskazki.info/skazki_s_kartinkami/756-skazka-s-kartinkami-luntik-naxodit-druzej.html>Источник: audioskazki.info</a>
             </div>
         </td>
-        <td class="button">
+        <td class="button" onClick= "return changeImageForward()">
             
             <a class="btn" onClick= "return changeImageForward()" href=/lyntik-nahodit-dryzei/10/>
                 <span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span>

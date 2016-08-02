@@ -62,19 +62,19 @@
 <body>
   <div class="container" id="content">
     <div class="row">
-      <div class="col-md-4 col-md-offset-1">
+      <div class="col-md-4 col-md-offset-1 col-sm-4 col-sm-offset-1">
         <a><button class="btn" id = "GoBack" onClick = goBack()>
             <h5><span class='glyphicon glyphicon-arrow-left'> Вернуться назад</h5></button>
         </a>
       </div>
-      <div class ="col-md-6">
+      <div class ="col-md-6 col-sm-6">
         <h4>Шамус и птицы </h4>
       </div>
     </div>
     <table class="table">
       <tr>
-        <td class="button">
-          
+        <td class="button"  onClick = "return changeImageBack()">
+        
           <a class="btn" onClick = "return changeImageBack()" href=/shamys-i-ptitsy/4/>
               <span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span>
           </a>
@@ -82,7 +82,7 @@
         </td>
         <td>
           <div class="row">
-            <div class="col-md-4">
+            <div class="col-md-4 col-sm-4">
               <p id = 'text' onClick = changeImageForward()>
 И поплыл Шамус дальше по морям-океанам. Посетил страны, где золото лежит прямо на земле, побывал на островах, куда до него не приставал ни один корабль. И с каждым годом становился Шамус мудрее и богаче. Но где бы он ни был, он всегда помнил суровые скалы и холодное море далекого Кинтайра.
 Так проплавал он десять лет, и не стало у него сил выносить дольше разлуку с родной землёй. Повернул Шамус корабль на север.
@@ -92,12 +92,12 @@
 Услыхал эти слова старый князь, полились из его глаз слёзы, обнял он Шамуса и стал опять приветствовать его — на этот раз как любимого сына. И во всём народе было великое ликование.
  </p>
             </div>
-            <div class="col-md-8">
+            <div class="col-md-8 col-sm-8">
                 <img class="img-responsive" src=../../static/skazki_image/shamys-i-ptitsy/5.jpg id = 'image' onClick= changeImageForward()></img>
                 <a href=http://audioskazki.net/archives/5370>Источник: audioskazki.net</a>
             </div>
         </td>
-        <td class="button">
+        <td class="button" onClick= "return changeImageForward()">
             
             <a class="btn" onClick= "return changeImageForward()" href=/shamys-i-ptitsy/6/>
                 <span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span>

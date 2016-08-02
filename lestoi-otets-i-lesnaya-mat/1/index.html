@@ -62,19 +62,19 @@
 <body>
   <div class="container" id="content">
     <div class="row">
-      <div class="col-md-4 col-md-offset-1">
+      <div class="col-md-4 col-md-offset-1 col-sm-4 col-sm-offset-1">
         <a><button class="btn" id = "GoBack" onClick = goBack()>
             <h5><span class='glyphicon glyphicon-arrow-left'> Вернуться назад</h5></button>
         </a>
       </div>
-      <div class ="col-md-6">
+      <div class ="col-md-6 col-sm-6">
         <h4>Лестой Отец и Лесная Мать</h4>
       </div>
     </div>
     <table class="table">
       <tr>
-        <td class="button">
-          
+        <td class="button"  onClick = "return changeImageBack()">
+        
           <a class="btn" onClick = "return changeImageBack()" href=/lestoi-otets-i-lesnaya-mat/0/>
               <span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span>
           </a>
@@ -82,7 +82,7 @@
         </td>
         <td>
           <div class="row">
-            <div class="col-md-4">
+            <div class="col-md-4 col-sm-4">
               <p id = 'text' onClick = changeImageForward()>
 Взял хозяин ружьё, кликнул собак и отправился в лес за лисой. Искал он её, искал и, наконец, видит: стоит в лесу гора, в горе глубокая нора вырыта, а из норы сама Патрикеевна выглядывает, в чепчике из куриного пуха. Крестьянин тотчас вскинул к плечу ружьё, прицелился и выстрелил. Лиса протянула ноги — тут и был ей конец. Бросились собаки к добыче и вытащили мёртвую лису из норы.
 Взвалил крестьянин Патрикеевну на спину, домой отправился. Шёл-шёл  — и вдруг наткнулся на тетеревиный выводок. Хотел он было вновь вскинуть ружьё, но в последний миг заколебался и подумал: Стоит ли тетеревят губить? Маленькие ещё они.
@@ -91,12 +91,12 @@
 Хотел было крестьянин вновь вскинуть ружьё, но в последний миг остановился и подумал: Разве хорошо убивать больную птицу? Пускай поправится, пускай выздоровеет, живёт.
  </p>
             </div>
-            <div class="col-md-8">
+            <div class="col-md-8 col-sm-8">
                 <img class="img-responsive" src=../../static/skazki_image/lestoi-otets-i-lesnaya-mat/1.jpg id = 'image' onClick= changeImageForward()></img>
                 <a href=http://audioskazki.net/archives/4602>Источник: audioskazki.net</a>
             </div>
         </td>
-        <td class="button">
+        <td class="button" onClick= "return changeImageForward()">
             
             <a class="btn" onClick= "return changeImageForward()" href=/lestoi-otets-i-lesnaya-mat/2/>
                 <span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span>

@@ -61,19 +61,19 @@
 <body>
   <div class="container" id="content">
     <div class="row">
-      <div class="col-md-4 col-md-offset-1">
+      <div class="col-md-4 col-md-offset-1 col-sm-4 col-sm-offset-1">
         <a><button class="btn" id = "GoBack" onClick = goBack()>
             <h5><span class='glyphicon glyphicon-arrow-left'> Вернуться назад</h5></button>
         </a>
       </div>
-      <div class ="col-md-6">
+      <div class ="col-md-6 col-sm-6">
         <h4>Откуда взялись броненосцы</h4>
       </div>
     </div>
     <table class="table">
       <tr>
-        <td class="button">
-          
+        <td class="button"  onClick = "return changeImageBack()">
+        
           <a class="btn" onClick = "return changeImageBack()" href=/otkyda-vzyalis-bronenostsy/5/>
               <span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span>
           </a>
@@ -81,7 +81,7 @@
         </td>
         <td>
           <div class="row">
-            <div class="col-md-4">
+            <div class="col-md-4 col-sm-4">
               <p id = 'text' onClick = changeImageForward()>- Я тебе не верю!  сказал Расписной Ягуар.  Мама моя говорила одно, а ты говорила, что она говорила другое, и теперь всё у меня так перепуталось, что я не знаю, где у меня хвост, где голова. А теперь ты сказала простые слова, которые я понимаю, и это путает меня больше всего. Мама учила меня, чтобы я бросил одного из вас в воду, и так как ты говоришь, что тебе хочется в воду, ясно, что тебе не хочется в воду. Так прыгай же в мутную воду реки Амазонки. Живо!
 - Хорошо, я прыгну, но знай: мама твоя будет очень недовольна. Пожалуйста, не говори ей, что я не говорила тебе, что она говорила
 - Если ты скажешь еще хоть одно слово о том, что говорила моя мама!..  вскричал Ягуар, но не успел договорить, потому что черепаха как ни в чём не бывало нырнула в мутную воду реки Амазонки. Долго она плыла под водою и выплыла на берег, где её ждал Злючка-Колючка Ёж.
@@ -90,12 +90,12 @@
 Было слышно, как среди кустов и деревьев, над мутной рекой Амазонкой, ревёт Ягуар и зовёт к себе мать Ягуариху. И она пришла.
  </p>
             </div>
-            <div class="col-md-8">
+            <div class="col-md-8 col-sm-8">
                 <img class="img-responsive" src=../../static/skazki_image/otkyda-vzyalis-bronenostsy/6.jpg id = 'image' onClick= changeImageForward()></img>
                 <a href=http://audioskazki.net/archives/5235>Источник: audioskazki.net</a>
             </div>
         </td>
-        <td class="button">
+        <td class="button" onClick= "return changeImageForward()">
             
             <a class="btn" onClick= "return changeImageForward()" href=/otkyda-vzyalis-bronenostsy/7/>
                 <span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span>

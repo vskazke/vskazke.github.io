@@ -63,19 +63,19 @@
 <body>
   <div class="container" id="content">
     <div class="row">
-      <div class="col-md-4 col-md-offset-1">
+      <div class="col-md-4 col-md-offset-1 col-sm-4 col-sm-offset-1">
         <a><button class="btn" id = "GoBack" onClick = goBack()>
             <h5><span class='glyphicon glyphicon-arrow-left'> Вернуться назад</h5></button>
         </a>
       </div>
-      <div class ="col-md-6">
+      <div class ="col-md-6 col-sm-6">
         <h4>Золушка</h4>
       </div>
     </div>
     <table class="table">
       <tr>
-        <td class="button">
-          
+        <td class="button"  onClick = "return changeImageBack()">
+        
           <a class="btn" onClick = "return changeImageBack()" href=/zolyshka/14/>
               <span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span>
           </a>
@@ -83,7 +83,7 @@
         </td>
         <td>
           <div class="row">
-            <div class="col-md-4">
+            <div class="col-md-4 col-sm-4">
               <p id = 'text' onClick = changeImageForward()>
 Все шестеро проворно вскочили на запятки кареты с таким важным видом, словно всю свою жизнь служили выездными лакеями и никогда не были ящерицами
 – Ну вот, – сказала фея, – теперь у тебя есть свой выезд, и ты можешь, не теряя времени, ехать во дворец. Что, довольна ты?
@@ -95,12 +95,12 @@
 – Не беспокойтесь, я не опоздаю! – ответила Золушка и, не помня себя от радости, отправилась во дворец.
  </p>
             </div>
-            <div class="col-md-8">
+            <div class="col-md-8 col-sm-8">
                 <img class="img-responsive" src=../../static/skazki_image/zolyshka/15.jpg id = 'image' onClick= changeImageForward()></img>
                 <a href=http://audioskazki.net/archives/1575>Источник: audioskazki.net</a>
             </div>
         </td>
-        <td class="button">
+        <td class="button" onClick= "return changeImageForward()">
             
             <a class="btn" onClick= "return changeImageForward()" href=/zolyshka/16/>
                 <span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span>

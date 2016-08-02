@@ -62,19 +62,19 @@
 <body>
   <div class="container" id="content">
     <div class="row">
-      <div class="col-md-4 col-md-offset-1">
+      <div class="col-md-4 col-md-offset-1 col-sm-4 col-sm-offset-1">
         <a><button class="btn" id = "GoBack" onClick = goBack()>
             <h5><span class='glyphicon glyphicon-arrow-left'> Вернуться назад</h5></button>
         </a>
       </div>
-      <div class ="col-md-6">
+      <div class ="col-md-6 col-sm-6">
         <h4>Питер Пэн. Приключения Динь-Динь</h4>
       </div>
     </div>
     <table class="table">
       <tr>
-        <td class="button">
-          
+        <td class="button"  onClick = "return changeImageBack()">
+        
           <a class="btn" onClick = "return changeImageBack()" href=/piter-pen-priklucheniya-din-din/33/>
               <span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span>
           </a>
@@ -82,7 +82,7 @@
         </td>
         <td>
           <div class="row">
-            <div class="col-md-4">
+            <div class="col-md-4 col-sm-4">
               <p id = 'text' onClick = changeImageForward()>
 Питер Пэн вернулся к Динь и потерявшимся мальчишкам.
 - Пора домой! – улыбнулся он.
@@ -92,12 +92,12 @@
 Пролетая над Сми, Динь увидела, как тот подмигнул ей – и подмигнула в ответ. Она всегда будет благодарна ему за свое спасение. Но Сми знал, что Крюк не должен узнать, как спаслась Динь на самом деле, иначе Капитан решит, что он плохой пират. Пусть это останется тайной маленькой феи и Сми.
  </p>
             </div>
-            <div class="col-md-8">
+            <div class="col-md-8 col-sm-8">
                 <img class="img-responsive" src=../../static/skazki_image/piter-pen-priklucheniya-din-din/34.jpg id = 'image' onClick= changeImageForward()></img>
                 <a href=http://skazkivcem.com//disney-online/piter-pen-feya>Источник: skazkivcem.com</a>
             </div>
         </td>
-        <td class="button">
+        <td class="button" onClick= "return changeImageForward()">
             
             <a class="btn" onClick= "return changeImageForward()" href=/piter-pen-priklucheniya-din-din/35/>
                 <span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span>

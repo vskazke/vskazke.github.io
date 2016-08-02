@@ -62,19 +62,19 @@
 <body>
   <div class="container" id="content">
     <div class="row">
-      <div class="col-md-4 col-md-offset-1">
+      <div class="col-md-4 col-md-offset-1 col-sm-4 col-sm-offset-1">
         <a><button class="btn" id = "GoBack" onClick = goBack()>
             <h5><span class='glyphicon glyphicon-arrow-left'> Вернуться назад</h5></button>
         </a>
       </div>
-      <div class ="col-md-6">
+      <div class ="col-md-6 col-sm-6">
         <h4>Три пряхи</h4>
       </div>
     </div>
     <table class="table">
       <tr>
-        <td class="button">
-          
+        <td class="button"  onClick = "return changeImageBack()">
+        
           <a class="btn" onClick = "return changeImageBack()" href=/tri-pryahi/6/>
               <span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span>
           </a>
@@ -82,7 +82,7 @@
         </td>
         <td>
           <div class="row">
-            <div class="col-md-4">
+            <div class="col-md-4 col-sm-4">
               <p id = 'text' onClick = changeImageForward()>
 Девушка прятала от королевы своих помощниц. Когда та приходила, она показывала ей только готовую пряжу, и королева прямо не знала, как похвалить девушку за уменье и старанье.
 Скоро во всех трёх комнатах и льна больше не осталось. Весь лён пряхи перепряли. Тогда встали они со своего места, попрощались с девушкой и сказали:
@@ -93,12 +93,12 @@
 — Ну что ж, — ответила королева, — почему бы нам этого не позволить. Ничего тут плохого нет.
 И вот, когда начался свадебный пир, вошли в залу три пряхи, очень пышно, но смешно разодетые. </p>
             </div>
-            <div class="col-md-8">
+            <div class="col-md-8 col-sm-8">
                 <img class="img-responsive" src=../../static/skazki_image/tri-pryahi/7.jpg id = 'image' onClick= changeImageForward()></img>
                 <a href=http://audioskazki.net/archives/2812>Источник: audioskazki.net</a>
             </div>
         </td>
-        <td class="button">
+        <td class="button" onClick= "return changeImageForward()">
             
             <a class="btn" onClick= "return changeImageForward()" href=/tri-pryahi/8/>
                 <span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span>

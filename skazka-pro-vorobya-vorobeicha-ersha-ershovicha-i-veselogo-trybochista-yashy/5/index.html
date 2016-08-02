@@ -61,19 +61,19 @@
 <body>
   <div class="container" id="content">
     <div class="row">
-      <div class="col-md-4 col-md-offset-1">
+      <div class="col-md-4 col-md-offset-1 col-sm-4 col-sm-offset-1">
         <a><button class="btn" id = "GoBack" onClick = goBack()>
             <h5><span class='glyphicon glyphicon-arrow-left'> Вернуться назад</h5></button>
         </a>
       </div>
-      <div class ="col-md-6">
+      <div class ="col-md-6 col-sm-6">
         <h4>Сказка про Воробья Воробеича, Ерша Ершовича и весёлого трубочиста Яшу</h4>
       </div>
     </div>
     <table class="table">
       <tr>
-        <td class="button">
-          
+        <td class="button"  onClick = "return changeImageBack()">
+        
           <a class="btn" onClick = "return changeImageBack()" href=/skazka-pro-vorobya-vorobeicha-ersha-ershovicha-i-veselogo-trybochista-yashy/4/>
               <span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span>
           </a>
@@ -81,7 +81,7 @@
         </td>
         <td>
           <div class="row">
-            <div class="col-md-4">
+            <div class="col-md-4 col-sm-4">
               <p id = 'text' onClick = changeImageForward()>— Нет, я ему покажу!.. – орал Воробей Воробеич, задыхаясь от  ярости.  – Он ещё не знает, каков я… Я ему покажу, проклятому Ершу Ершовичу!  Он  будет меня поминать, разбойник…
 — Не слушай его! – крикнул трубочисту из воды Ерш Ершович. –  Всё-то он врёт…
 — Я вру? – орал Воробей Воробеич. – А кто червяка нашёл? Я  вру!..  Жирный такой червяк! Я его на берегу выкопал… Сколько трудился… Ну,   схватил его и тащу домой, в своё гнездо. У меня семейство – должен я  корм  носить… Только вспорхнул с червяком над рекой, а проклятый Ерш  Ершович, –  чтоб его щука проглотила! – как крикнет: “Ястреб!” Я со  страху  крикнул – червяк упал в воду, а Ерш Ершович его и проглотил… Это  называется  врать?!. И ястреба никакого не было…
@@ -96,12 +96,12 @@
 — Будем говорить дальше! Рыба должна жить в воде, а птица –  в  воздухе. Так я говорю? Ну вот… А червяк, например, живёт в земле.  Хорошо.  Теперь смотрите…
  </p>
             </div>
-            <div class="col-md-8">
+            <div class="col-md-8 col-sm-8">
                 <img class="img-responsive" src=../../static/skazki_image/skazka-pro-vorobya-vorobeicha-ersha-ershovicha-i-veselogo-trybochista-yashy/5.jpg id = 'image' onClick= changeImageForward()></img>
                 <a href=http://audioskazki.net/archives/3091>Источник: audioskazki.net</a>
             </div>
         </td>
-        <td class="button">
+        <td class="button" onClick= "return changeImageForward()">
             
             <a class="btn" onClick= "return changeImageForward()" href=/skazka-pro-vorobya-vorobeicha-ersha-ershovicha-i-veselogo-trybochista-yashy/6/>
                 <span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span>

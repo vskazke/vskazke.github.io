@@ -62,19 +62,19 @@
 <body>
   <div class="container" id="content">
     <div class="row">
-      <div class="col-md-4 col-md-offset-1">
+      <div class="col-md-4 col-md-offset-1 col-sm-4 col-sm-offset-1">
         <a><button class="btn" id = "GoBack" onClick = goBack()>
             <h5><span class='glyphicon glyphicon-arrow-left'> Вернуться назад</h5></button>
         </a>
       </div>
-      <div class ="col-md-6">
+      <div class ="col-md-6 col-sm-6">
         <h4>Слоненок</h4>
       </div>
     </div>
     <table class="table">
       <tr>
-        <td class="button">
-          
+        <td class="button"  onClick = "return changeImageBack()">
+        
           <a class="btn" onClick = "return changeImageBack()" href=/slonenok/7/>
               <span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span>
           </a>
@@ -82,7 +82,7 @@
         </td>
         <td>
           <div class="row">
-            <div class="col-md-4">
+            <div class="col-md-4 col-sm-4">
               <p id = 'text' onClick = changeImageForward()>
 - Простите,  вежливо ответил слоненок,  но отец меня бил, мать меня била, не говоря уж о дяде страусе и тете жирафе, которая дерется так же больно, как дядя гиппопотам и дядя павиан. Бил меня даже здесь на берегу двухцветный питон, а он своим тяжелым-претяжелым хвостом колотит больнее их всех. Если вам все равно, то, пожалуйста, хоть вы меня не бейте.
 - Иди сюда, малютка,  повторило чудовище.  Я  крокодил.
@@ -94,12 +94,12 @@
 
 	 </p>
             </div>
-            <div class="col-md-8">
+            <div class="col-md-8 col-sm-8">
                 <img class="img-responsive" src=../../static/skazki_image/slonenok/8.jpg id = 'image' onClick= changeImageForward()></img>
                 <a href=http://audioskazki.net/archives/5237>Источник: audioskazki.net</a>
             </div>
         </td>
-        <td class="button">
+        <td class="button" onClick= "return changeImageForward()">
             
             <a class="btn" onClick= "return changeImageForward()" href=/slonenok/9/>
                 <span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span>

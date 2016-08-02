@@ -146,12 +146,13 @@ td .btn {
     background-color: #f1d8d8;
     border-color: #f1d8d8;
     font-size: 28px;
-    padding: 200px 10px;
+    max-height: auto;
+    padding: auto 10px;
 },
 
 .table tr {
     display: block;
-    max-height: 500px;
+    max-height: auto;
     max-width: 450px;
 }
 #image {
@@ -161,13 +162,17 @@ td .btn {
 }
 p#text {
     display: block;
-    max-height: 500px;
+    max-height: auto;
     max-width: 450px;
     font-size: 16px;
 }
-.table tbody tr td .button{
+
+.table tbody tr td {
     vertical-align: middle;
 }
+/* .table tbody tr td .button{ */
+    /* vertical-align: middle; */
+/* } */
 #result img {
     width: 150px;
     height: 150px;

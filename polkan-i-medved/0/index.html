@@ -61,19 +61,19 @@
 <body>
   <div class="container" id="content">
     <div class="row">
-      <div class="col-md-4 col-md-offset-1">
+      <div class="col-md-4 col-md-offset-1 col-sm-4 col-sm-offset-1">
         <a><button class="btn" id = "GoBack" onClick = goBack()>
             <h5><span class='glyphicon glyphicon-arrow-left'> Вернуться назад</h5></button>
         </a>
       </div>
-      <div class ="col-md-6">
+      <div class ="col-md-6 col-sm-6">
         <h4>Полкан и медведь </h4>
       </div>
     </div>
     <table class="table">
       <tr>
-        <td class="button">
-          
+        <td class="button"  onClick = "return changeImageBack()">
+        
           <a class="btn" onClick = "return changeImageBack()">
               <span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span>
           </a>
@@ -81,7 +81,7 @@
         </td>
         <td>
           <div class="row">
-            <div class="col-md-4">
+            <div class="col-md-4 col-sm-4">
               <p id = 'text' onClick = changeImageForward()>Было это ещё в старое недоброе время.
 Всю свою жизнь прослужил богатому хозяину старый пёс Полкан: двор стерёг и с хозяйскими ребятишками по улице бегал. Бывало, начнут ребятишки Полкана за хвост теребить: больно Полкану, а Полкан терпит. Знает, что ма­лые ребята – несмышлёныши.
 Служил Полкан, пока старость не пришла. И слышать стал плохо Полкан, и зубы притёрлись. Стал хозяин на Пол­кана покрикивать, стал куском хлеба попрекать, а потом и совсем со двора прогнал.
@@ -90,12 +90,12 @@
 А проходил глухими местами медведь Михайло Ивано­вич. Почуял медведь пёсий дух, заглянул в чащобу. Смот­рит: под деревом голодный пёс Полкан лежит.
  </p>
             </div>
-            <div class="col-md-8">
+            <div class="col-md-8 col-sm-8">
                 <img class="img-responsive" src=../../static/skazki_image/polkan-i-medved/0.jpg id = 'image' onClick= changeImageForward()></img>
                 <a href=http://audioskazki.net/archives/1637>Источник: audioskazki.net</a>
             </div>
         </td>
-        <td class="button">
+        <td class="button" onClick= "return changeImageForward()">
             
             <a class="btn" onClick= "return changeImageForward()" href=/polkan-i-medved/1/>
                 <span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span>

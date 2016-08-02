@@ -62,19 +62,19 @@
 <body>
   <div class="container" id="content">
     <div class="row">
-      <div class="col-md-4 col-md-offset-1">
+      <div class="col-md-4 col-md-offset-1 col-sm-4 col-sm-offset-1">
         <a><button class="btn" id = "GoBack" onClick = goBack()>
             <h5><span class='glyphicon glyphicon-arrow-left'> Вернуться назад</h5></button>
         </a>
       </div>
-      <div class ="col-md-6">
+      <div class ="col-md-6 col-sm-6">
         <h4>Цветик-Семицветик</h4>
       </div>
     </div>
     <table class="table">
       <tr>
-        <td class="button">
-          
+        <td class="button"  onClick = "return changeImageBack()">
+        
           <a class="btn" onClick = "return changeImageBack()" href=/tsvetik-semitsvetik/17/>
               <span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span>
           </a>
@@ -82,7 +82,7 @@
         </td>
         <td>
           <div class="row">
-            <div class="col-md-4">
+            <div class="col-md-4 col-sm-4">
               <p id = 'text' onClick = changeImageForward()>
 И то это были только московские куклы. А куклы из Ленинграда, Харькова, Киева, Львова и других советских городов еще не успели добежать и галдели, как попугаи, по всем дорогам Советского Союза. Женя даже слегка испугалась. Но это было только начало. За куклами сами собой покатились мячики, шарики, самокаты, трехколесные велосипеды, тракторы, автомобили, танки, танкетки, пушки. Прыгалки ползли по земле, как ужи, путаясь под ногами и заставляя нервных кукол пищать еще громче. По воздуху летели миллионы игрушечных самолетов, дирижаблей, планеров. С неба, как тюльпаны, сыпались ватные парашютисты, повисая на телефонных проводах и деревьях. Движение в городе остановилось. Постовые милиционеры влезли на фонари и не знали, что им делать.
 – Довольно, довольно! – в ужасе закричала Женя, хватаясь за голову. – Будет! Что вы, что вы! Мне совсем не надо столько игрушек. Я пошутила. Я боюсь
@@ -91,12 +91,12 @@
 Женя по лестнице – игрушки за ней. Женя на балкон – игрушки за ней. Женя на чердак – игрушки за ней.
  </p>
             </div>
-            <div class="col-md-8">
+            <div class="col-md-8 col-sm-8">
                 <img class="img-responsive" src=../../static/skazki_image/tsvetik-semitsvetik/18.jpg id = 'image' onClick= changeImageForward()></img>
                 <a href=http://audioskazki.net/archives/3031>Источник: audioskazki.net</a>
             </div>
         </td>
-        <td class="button">
+        <td class="button" onClick= "return changeImageForward()">
             
             <a class="btn" onClick= "return changeImageForward()" href=/tsvetik-semitsvetik/19/>
                 <span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span>

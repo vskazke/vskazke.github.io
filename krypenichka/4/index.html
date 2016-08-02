@@ -62,19 +62,19 @@
 <body>
   <div class="container" id="content">
     <div class="row">
-      <div class="col-md-4 col-md-offset-1">
+      <div class="col-md-4 col-md-offset-1 col-sm-4 col-sm-offset-1">
         <a><button class="btn" id = "GoBack" onClick = goBack()>
             <h5><span class='glyphicon glyphicon-arrow-left'> Вернуться назад</h5></button>
         </a>
       </div>
-      <div class ="col-md-6">
+      <div class ="col-md-6 col-sm-6">
         <h4>Крупеничка</h4>
       </div>
     </div>
     <table class="table">
       <tr>
-        <td class="button">
-          
+        <td class="button"  onClick = "return changeImageBack()">
+        
           <a class="btn" onClick = "return changeImageBack()" href=/krypenichka/3/>
               <span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span>
           </a>
@@ -82,18 +82,18 @@
         </td>
         <td>
           <div class="row">
-            <div class="col-md-4">
+            <div class="col-md-4 col-sm-4">
               <p id = 'text' onClick = changeImageForward()>
 Прищурили наездники хитрые глаза, улыбнулись друг другу  одними углами губ, задорно встряхнули бритыми головами в мохнатых шапках  и поехали-поскакали с молодецким покриком. А через несколько дней  вернулись и привезли с собой Талантаю, для хана своего, подарок — дивную  красавицу  Крупеничку.
 Шла она с мамушкой Варварушкой купаться  в озере; а в лесу, как нарочно, ягодка за ягодкой — спелая земляника  так и заманивает глубже в чащу. А мамушка все рассказывает ей про  одолень-траву, что растет белыми звездами среди озера — надобно собрать  этой одолень-травы и в пояс зашить, и тогда с человеком никакой беды не  случится: одолень-трава всякую беду отведет. И вскрикнуть обе не успели,  как поднялась вдруг перед ними столбом серая пыль с тропинки, с одной  стороны сорвался с места сосновый пень лесной и бросился им под ноги, а с  другой стороны прыгнул на них зеленый куст.
  </p>
             </div>
-            <div class="col-md-8">
+            <div class="col-md-8 col-sm-8">
                 <img class="img-responsive" src=../../static/skazki_image/krypenichka/4.jpg id = 'image' onClick= changeImageForward()></img>
                 <a href=http://audioskazki.net/archives/2995>Источник: audioskazki.net</a>
             </div>
         </td>
-        <td class="button">
+        <td class="button" onClick= "return changeImageForward()">
             
             <a class="btn" onClick= "return changeImageForward()" href=/krypenichka/5/>
                 <span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span>

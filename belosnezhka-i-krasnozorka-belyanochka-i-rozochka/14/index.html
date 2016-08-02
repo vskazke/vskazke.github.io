@@ -62,19 +62,19 @@
 <body>
   <div class="container" id="content">
     <div class="row">
-      <div class="col-md-4 col-md-offset-1">
+      <div class="col-md-4 col-md-offset-1 col-sm-4 col-sm-offset-1">
         <a><button class="btn" id = "GoBack" onClick = goBack()>
             <h5><span class='glyphicon glyphicon-arrow-left'> Вернуться назад</h5></button>
         </a>
       </div>
-      <div class ="col-md-6">
+      <div class ="col-md-6 col-sm-6">
         <h4>Белоснежка и Краснозорька (Беляночка и Розочка)</h4>
       </div>
     </div>
     <table class="table">
       <tr>
-        <td class="button">
-          
+        <td class="button"  onClick = "return changeImageBack()">
+        
           <a class="btn" onClick = "return changeImageBack()" href=/belosnezhka-i-krasnozorka-belyanochka-i-rozochka/13/>
               <span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span>
           </a>
@@ -82,7 +82,7 @@
         </td>
         <td>
           <div class="row">
-            <div class="col-md-4">
+            <div class="col-md-4 col-sm-4">
               <p id = 'text' onClick = changeImageForward()>
 В лучах заходящего солнца блестящие камешки так чудесно мерцали, переливаясь всеми цветами радуги, что сестры невольно остановились и залюбовались.
 Карлик поднял голову и заметил девочек.
@@ -91,12 +91,12 @@
 Карлик в страхе отскочил в сторону, но улизнуть в свою подземную нору ему не удалось: медведь уже был в двух шагах от него.
  </p>
             </div>
-            <div class="col-md-8">
+            <div class="col-md-8 col-sm-8">
                 <img class="img-responsive" src=../../static/skazki_image/belosnezhka-i-krasnozorka-belyanochka-i-rozochka/14.jpg id = 'image' onClick= changeImageForward()></img>
                 <a href=http://audioskazki.net/archives/2700>Источник: audioskazki.net</a>
             </div>
         </td>
-        <td class="button">
+        <td class="button" onClick= "return changeImageForward()">
             
             <a class="btn" onClick= "return changeImageForward()" href=/belosnezhka-i-krasnozorka-belyanochka-i-rozochka/15/>
                 <span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span>

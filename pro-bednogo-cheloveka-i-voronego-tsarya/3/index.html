@@ -61,19 +61,19 @@
 <body>
   <div class="container" id="content">
     <div class="row">
-      <div class="col-md-4 col-md-offset-1">
+      <div class="col-md-4 col-md-offset-1 col-sm-4 col-sm-offset-1">
         <a><button class="btn" id = "GoBack" onClick = goBack()>
             <h5><span class='glyphicon glyphicon-arrow-left'> Вернуться назад</h5></button>
         </a>
       </div>
-      <div class ="col-md-6">
+      <div class ="col-md-6 col-sm-6">
         <h4>Про бедного человека и Вороньего царя</h4>
       </div>
     </div>
     <table class="table">
       <tr>
-        <td class="button">
-          
+        <td class="button"  onClick = "return changeImageBack()">
+        
           <a class="btn" onClick = "return changeImageBack()" href=/pro-bednogo-cheloveka-i-voronego-tsarya/2/>
               <span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span>
           </a>
@@ -81,7 +81,7 @@
         </td>
         <td>
           <div class="row">
-            <div class="col-md-4">
+            <div class="col-md-4 col-sm-4">
               <p id = 'text' onClick = changeImageForward()>Задумался бедный человек: что делать? Детей у него куча, если и отдать одного сына, всё равно много останется. А волов только два. Как он без них поле допашет, на чём дров привезёт, чем на хлеб заработает?
 А птица торопит:
 — Ты долго не раздумывай. Отвечай, кого мне отдаёшь?
@@ -93,12 +93,12 @@
 Печальный вернулся домой бедный человек.
  </p>
             </div>
-            <div class="col-md-8">
+            <div class="col-md-8 col-sm-8">
                 <img class="img-responsive" src=../../static/skazki_image/pro-bednogo-cheloveka-i-voronego-tsarya/3.jpg id = 'image' onClick= changeImageForward()></img>
                 <a href=http://audioskazki.net/archives/4660>Источник: audioskazki.net</a>
             </div>
         </td>
-        <td class="button">
+        <td class="button" onClick= "return changeImageForward()">
             
             <a class="btn" onClick= "return changeImageForward()" href=/pro-bednogo-cheloveka-i-voronego-tsarya/4/>
                 <span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span>

@@ -61,19 +61,19 @@
 <body>
   <div class="container" id="content">
     <div class="row">
-      <div class="col-md-4 col-md-offset-1">
+      <div class="col-md-4 col-md-offset-1 col-sm-4 col-sm-offset-1">
         <a><button class="btn" id = "GoBack" onClick = goBack()>
             <h5><span class='glyphicon glyphicon-arrow-left'> Вернуться назад</h5></button>
         </a>
       </div>
-      <div class ="col-md-6">
+      <div class ="col-md-6 col-sm-6">
         <h4>Трудолюбивая медведица</h4>
       </div>
     </div>
     <table class="table">
       <tr>
-        <td class="button">
-          
+        <td class="button"  onClick = "return changeImageBack()">
+        
           <a class="btn" onClick = "return changeImageBack()" href=/trydolubivaya-medveditsa/3/>
               <span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span>
           </a>
@@ -81,18 +81,18 @@
         </td>
         <td>
           <div class="row">
-            <div class="col-md-4">
+            <div class="col-md-4 col-sm-4">
               <p id = 'text' onClick = changeImageForward()>А мама медведица по дороге встретила двух сорок сидевших на кустах и начала распрашивать о новостях, что творится в лесу. Узнав все подробности Медведица пошла навестить Ежика.Ежик в этот момент был болен. Медведица стала давать ему советы:"Чувствую простыл ты немножко! - Есть ли у тебя кашель и насморк? - Возьми аспирина, чай завари и пей горячим с малиной". За разговорами Медведица совсем забыла про свой суп.
 
 
  </p>
             </div>
-            <div class="col-md-8">
+            <div class="col-md-8 col-sm-8">
                 <img class="img-responsive" src=../../static/skazki_image/trydolubivaya-medveditsa/4.jpg id = 'image' onClick= changeImageForward()></img>
                 <a href=http://audioskazki.info/skazki_s_kartinkami/6341-skazka-s-kartinkami-trudolyubivaya-medvedica.html>Источник: audioskazki.info</a>
             </div>
         </td>
-        <td class="button">
+        <td class="button" onClick= "return changeImageForward()">
             
             <a class="btn" onClick= "return changeImageForward()" href=/trydolubivaya-medveditsa/5/>
                 <span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span>
